@@ -638,6 +638,14 @@ input::placeholder {
     margin-right: var(--global-whitespace-sm);
 }
 
+.c-option-list {
+    margin-bottom: 24px;
+}
+
+.c-option-list__item {
+    margin-bottom: 24px;
+}
+
 /*
     Component: Label
     ---
@@ -712,7 +720,7 @@ input::placeholder {
     transition: 120ms;
 }
 
-
+.c-option--hidden:active + .c-custom-option .c-custom-option__fake-input,
 .c-option--hidden:hover + .c-custom-option .c-custom-option__fake-input {
     border-color: var(--global-color-neutral-x-light);
 }
